@@ -131,6 +131,11 @@ color:var(--primary-font-color);
     color:var(--first-background-color);
 }
 
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--first-background-color)
+}
+
 .header-contact {
     font-weight: 500;
     font-size: 14px;
@@ -247,10 +252,15 @@ color:var(--primary-font-color);
 
 /* -------------TEAM-------------- */
 
+.team {
+    background: #F5F4FA;
+}
+
 .team-title{
     padding-top: 94px;
     margin-bottom: 50px;
     text-align: center;
+    
 }
 
 .team-suptitle {
@@ -274,6 +284,7 @@ color:var(--primary-font-color);
     padding-bottom: 94px;
     text-align: center;
     margin-left: -30px;
+    
 }
 
 .team-item{
@@ -286,6 +297,7 @@ color:var(--primary-font-color);
 
 .team-text-cards {
     padding-top: 30px;
+    background-color: var(--third-font-color);
 
 }
 
