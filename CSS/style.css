@@ -87,15 +87,21 @@ color:var(--primary-font-color);
 }
 /* ---------------HEADER------------------- */
 
-.header .container {
-    display: flex;
-    align-items: center;
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
 }
 
-.header-list {
-    padding: 32px 0;
+.header .container {
+    display: flex;
+    align-items: center;
 }
+
+/* .header-list {
+    padding: 32px 0;
+} */
+
 
 .header-nav {
     display: flex;
@@ -124,6 +130,7 @@ color:var(--primary-font-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-font-color);
+    padding: 32px 0px ;
 }
 
 .header-link:hover,
@@ -143,6 +150,7 @@ color:var(--primary-font-color);
     letter-spacing: 0.02em;
     color:var(--secondary-font-color);
     text-align: center;
+    padding: 32px 0;
     
 }
 
@@ -158,7 +166,8 @@ color:var(--primary-font-color);
 
 .hero {
     background-color: #2F303A;
-    padding: 200px 0px;
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 
 .hero-title {
@@ -194,6 +203,10 @@ color:var(--primary-font-color);
 }
 
     /* -------------BENEFITS-------------- */
+.benefits {
+    padding: 94px 0;
+}
+
 .benefits-list{
     display: flex;
     justify-self: center;
@@ -206,39 +219,40 @@ color:var(--primary-font-color);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
-    padding-top: 94px;
-}
-
-.benefits-item:not(:last-child){
-    margin-right: 30px;
 }
 
 .benefits-item {
     margin-right: 30px;
 }
 
+.benefits-item:last-child {
+    margin-right: 0;
+}
+
 .benefits-text{
     font-size: 14px;
-    line-height: 1.71
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color:var(--secondary-font-color);
-    max-width: 250px;
+    max-width: 259px;
     }
 
  /* -------------ABOUT-------------- */
+
+.about {
+    padding-bottom: 94px;
+}
 
 .about-title {
     margin-bottom: 50px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 94px;
 }
 
 .about-item {
     flex-basis: calc((100-90px)/4);
     margin-left: 30px;
-    padding-bottom: 94px;
 }
 
 .about-list {
@@ -254,10 +268,10 @@ color:var(--primary-font-color);
 
 .team {
     background: #F5F4FA;
+    padding: 94px 0;
 }
 
 .team-title{
-    padding-top: 94px;
     margin-bottom: 50px;
     text-align: center;
     
@@ -272,16 +286,14 @@ color:var(--primary-font-color);
 
 .team-subtitle {
     font-size: 16px;
-    line-height: 1.19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);
     margin-top: 10px;
-    padding-bottom: 30px;
 }
 
 .team-list {
     display: flex;
-    padding-bottom: 94px;
     text-align: center;
     margin-left: -30px;
     
@@ -296,7 +308,7 @@ color:var(--primary-font-color);
 }
 
 .team-text-cards {
-    padding-top: 30px;
+    padding: 30px 0;
     background-color: var(--third-font-color);
 
 }
@@ -317,7 +329,7 @@ color:var(--primary-font-color);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--secondary-font-color);
+    color: rgba(255, 255, 255, 0.6);;
 }
 
 
@@ -326,22 +338,23 @@ color:var(--primary-font-color);
 }
 
 .footer-logo {
-    padding-top: 60px;
     margin-bottom: 20px;
 }
 
 .contact-info-item:not(:last-child){
     margin-bottom: 9px;
 }
-.contact-info-item:last-child{
-    padding-bottom: 60px;
-}
 
 .contact-info {
     background: #2F303A;
+    padding: 60px 0;
 }
 
 /* ------------------------PORTFOLIO----------------------------- */
+
+.galery {
+    padding: 94px 0;
+}
 
 .galery-filter-btn {
     font-family: inherit;
@@ -362,8 +375,7 @@ color:var(--primary-font-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 94px;
-    padding-bottom: 56px;
+    margin-bottom: 56px;
 }
 
 .galery-item {
@@ -382,7 +394,6 @@ color:var(--primary-font-color);
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: var(--primary-font-color);
-    margin-top: 20px;
     margin-bottom: 4px;
 }
 
@@ -408,10 +419,9 @@ color:var(--primary-font-color);
 
 .galery-cards-text{
     border: 1px solid #EEEEEE;
-    padding-left: 24px;
+    padding: 20px 24px;
 }
 
 .galery-list-item:nth-child(n+7) {
     margin-bottom: 0px;
-    padding-bottom: 94px;
 }
